@@ -241,9 +241,9 @@ class Lian:
             if c % 10000 == 0:
                 print(len(self.visited))
                 print(len(self.queue))
-                if c % 200000 == 0:
-                    plt.imshow(self.visited_matrix)
-                    plt.show()
+                # if c % 200000 == 0:
+                #     plt.imshow(self.visited_matrix)
+                #     plt.show()
 
         path = [finish.coords]
 
@@ -253,7 +253,7 @@ class Lian:
             prev = prev.parent
 
 
-        plt.imshow(self.visited_matrix)
-        plt.show()
+        # plt.imshow(self.visited_matrix)
+        # plt.show()
 
         return path
