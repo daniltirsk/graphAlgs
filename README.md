@@ -1,4 +1,6 @@
-# graphAlgs
+# LIAN implementation in python
+LIAN (from "limited angle") — heuristic search algorithm for generating smooth paths for single-shot grid-based 2D path finding. 
+
 ##Theta = 45 R = 5  
 ![Figure_1](https://user-images.githubusercontent.com/56964428/209480764-854d4fb7-2ca0-4df9-9275-672555cdcd3f.png)  
 ##Theta = 20 R = 10  
